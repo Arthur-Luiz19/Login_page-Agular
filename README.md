@@ -1,27 +1,76 @@
-# LoginPage
+# 🔐 Login Page - Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+> Página de login moderna e responsiva desenvolvida com **Angular** e **TypeScript**, implementando autenticação de usuários, validação de formulários reativos e integração com APIs REST.
 
-## Development server
+![Angular](https://img.shields.io/badge/Angular-14+-red?style=flat-square&logo=angular)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.x-blue?style=flat-square&logo=typescript)
+![RxJS](https://img.shields.io/badge/RxJS-7.x-purple?style=flat-square&logo=rxjs)
+![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![Status](https://img.shields.io/badge/status-concluído-brightgreen?style=flat-square)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 📋 Índice
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [📖 Sobre o Projeto](#-sobre-o-projeto)
+- [✨ Funcionalidades](#-funcionalidades)
+- [🚀 Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [📋 Pré-requisitos](#-pré-requisitos)
+- [⚙️ Como Executar](#️-como-executar)
+- [📁 Estrutura do Projeto](#-estrutura-do-projeto)
+- [🔧 Configurações](#-configurações)
+- [🧪 Testes](#-testes)
+- [🤝 Contribuindo](#-contribuindo)
+- [📄 Licença](#-licença)
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📖 Sobre o Projeto
 
-## Running unit tests
+Este projeto é uma **página de login** desenvolvida com **Angular**, focada em boas práticas de desenvolvimento, experiência do usuário e segurança. Implementa validação de formulários reativos, tratamento de erros, integração com backend via HTTP e gerenciamento de estado com **RxJS**.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Ideal para ser integrado a aplicações que necessitam de autenticação de usuários com token JWT.
 
-## Running end-to-end tests
+<p align="center">
+  <img src="./src/assets/screenshots/login-preview.png" alt="Preview do Login" width="600"/>
+  <br/>
+  <em>Tela de login do projeto (substitua pelo print real do seu projeto)</em>
+</p>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## ✨ Funcionalidades
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- ✅ **Formulário reativo** com validação em tempo real (email, senha, campos obrigatórios)
+- ✅ **Mensagens de erro** contextualizadas e feedback visual para o usuário
+- ✅ **Integração com API REST** via `HttpClient` para autenticação de usuários
+- ✅ **Gerenciamento de estado assíncrono** com **RxJS** (Observables, operators)
+- ✅ **Proteção de rotas** com Guards do Angular *(opcional)*
+- ✅ **Armazenamento seguro de token** (localStorage/sessionStorage)
+- ✅ **Design responsivo** e acessível para mobile e desktop
+- ✅ **Tratamento de erros HTTP** com interceptors
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+| Categoria | Tecnologias |
+|-----------|-------------|
+| **Framework** | Angular 14+ |
+| **Linguagem** | TypeScript 4.x |
+| **Reatividade** | RxJS 7.x |
+| **Estilização** | CSS3 / SCSS |
+| **HTTP Client** | @angular/common/http |
+| **Formulários** | @angular/forms (Reactive Forms) |
+| **Router** | @angular/router |
+| **Build Tool** | Angular CLI |
+
+---
+
+## 📋 Pré-requisitos
+
+- [Node.js 16+](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
+- [Angular CLI](https://cli.angular.io/) instalado globalmente:
+  ```bash
+  npm install -g @angular/cli

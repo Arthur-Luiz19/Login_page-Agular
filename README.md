@@ -31,11 +31,8 @@ Este projeto é uma **página de login** desenvolvida com **Angular**, focada em
 
 Ideal para ser integrado a aplicações que necessitam de autenticação de usuários com token JWT.
 
-<p align="center">
-  <img src="./src/assets/screenshots/login-preview.png" alt="Preview do Login" width="600"/>
-  <br/>
-  <em>Tela de login do projeto (substitua pelo print real do seu projeto)</em>
-</p>
+<img width="1906" height="943" alt="image" src="https://github.com/user-attachments/assets/396c133f-4eb1-4af8-9dfb-abcea8e2c0ed" />
+
 
 ---
 

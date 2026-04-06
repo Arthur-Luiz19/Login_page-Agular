@@ -33,6 +33,17 @@ Ideal para ser integrado a aplicações que necessitam de autenticação de usu�
 
 <img width="1906" height="943" alt="image" src="https://github.com/user-attachments/assets/396c133f-4eb1-4af8-9dfb-abcea8e2c0ed" />
 
+---
+
+## 🔗 Projetos Relacionados
+
+Este frontend foi desenvolvido para consumir a API de autenticação do repositório abaixo:
+
+| Projeto | Descrição | Link |
+|---------|-----------|------|
+| **🔐 Login Auth API** | Backend RESTful com Spring Boot, Spring Security e JWT para autenticação de usuários | [🔗 github.com/Arthur-Luiz19/login-auth-api](https://github.com/Arthur-Luiz19/login-auth-api) |
+
+> 💡 **Dica:** Para executar o projeto completo, clone também o backend e siga as instruções de configuração em ambos os repositórios.
 
 ---
 
